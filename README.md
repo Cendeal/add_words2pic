@@ -10,7 +10,9 @@
 - 3.可以旋转文字
 - 4.可以保存多种格式，支持jpeg、jpg、png等
 #### 样例展示：
-
+![邀请函](https://github.com/Cendeal/add_words2pic/blob/master/example/output.jpg)
+![水印水平方向](https://github.com/Cendeal/add_words2pic/blob/master/example/shuiyin.jpg)
+![水印旋转](https://github.com/Cendeal/add_words2pic/blob/master/example/shuiyin_rota.jpg)
 #### 源码分析：
 
 - 1.AddContent2Picture类的设计使用了构造者模式，方便初始化对象，同时提高了易读性：
@@ -172,7 +174,7 @@ test.addMsg(msg, footer, fontcolor, font);
 test.outPutFile("jpg", "outputfilename");
 ```
 ### 项目地址：
-
+[地址](https://github.com/Cendeal/add_words2pic/)
 
 
 
